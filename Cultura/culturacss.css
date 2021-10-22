@@ -16,3 +16,18 @@
 
 
 }
+
+a.principal, a.icon_voltar{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover.principal{
+		text-decoration: none;
+		background-color: purple;
+}
+
+a:hover.icon_voltar{
+	text-decoration: none;
+	color:gray;
+}
