@@ -1,12 +1,18 @@
 .classificacao{
 
-	height:136px;
-	float:right;
-	
+		height:136px;
+		float:right;
+		
 
 }
 .foto_lugar{
-float: right;
-height: 300px;
-border-radius: 45%;
+	float: right;
+	height: 300px;
+	border-radius: 45%;
+}
+
+.icon_voltar{
+			float:right;
+
+
 }
