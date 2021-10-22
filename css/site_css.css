@@ -28,3 +28,27 @@ body {
   color:orangered;
   font-size: 250%;
   }
+
+
+  /* página evento */
+  a.principal, a.icon_voltar{
+    text-decoration: none;
+    color: black;
+  }
+
+  .icon_voltar{
+    float:right;
+}
+
+.titulo {
+  font-size: 350%;
+}
+
+.p_evento {
+  background-color: #b10000;
+  color: aliceblue;
+}
+
+.evento_info p{
+  font-size: 200%;
+}
