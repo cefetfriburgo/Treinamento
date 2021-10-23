@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/better-tema.css">
+    <title>Turistando em Nova Friburgo</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+      <div class="container">
+        <a href="#" class="navbar-brand">Turistando em Nova Friburgo</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent">
+          Menu
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li><a href="#Introdução" class="nav-link">Avaliação</a></li>
+            <li><a href="#Descrição" class="nav-link">Localização</a></li>
+            <li><a href="#Imagens" class="nav-link">Pratos mais famosos</a></li>
+            <li><a href="#Fotos" class="nav-link">Fotos do estabelecimento</a></li>
+            <li><a href="#Comentarios" class="nav-link">Comentários</a></li>
+          </ul>
+        </div> <!-- fim .collapse -->
+      </div> <!-- fim .container -->
+    </nav>
+
+    <main>  
+      <section class="jumbotron">
+        <div class="container">
+          <h1>Restaurante da Lorem</h1>
+        </div>
+      </section>
+  
+  <section class="hall bg-white text-dark pt-5" id="Introdução">
+        <div class="container">
+          <div class="row d-flex align-items-center ">
+            <div class="col-lg-6">
+              <h1>
+                Avaliação:
+              </h1>
+            </div> 
+              <figure class="col-sm-8 col-md-6 col-lg-4">
+                <img  class="img-fluid img-thumbnail" src="img/stars.png" alt="Girassóis no campo"> 
+                  <figcaption>
+                  4 estrelas no raking
+                  </figcaption>
+              </figure>
+          </div>
+    </section>
+      
+    <section class="hall bg-white text-dark pt-5" id="Descrição">
+        <div class="container">
+          <div class="row d-flex align-items-center ">
+            <div class="col-lg-6">
+              <h1>
+                Localização:
+              </h1>
+              <p>Endereço: Av. Walter Machado Thedin, 891 - Mury, Nova Friburgo - RJ, 28615-315</p>
+              <p>Telefone: (22) 2542-1368</p>
+          </div> 
+            <figure class="col-sm-8 col-md-6 col-lg-4">
+              <img  class="img-fluid img-thumbnail" src="img/imagem1.jpg" alt="Girassóis no campo"> 
+              <img  class="img-fluid img-thumbnail" src="img/mapa.jpg" alt="Girassóis no campo"> 
+                <figcaption>
+                Localização no mapa
+                </figcaption>
+            </figure>
+          </div>
+    </section>
+
+    <section class="container" id="Imagens">
+        <h2 class="text-center">
+          Pratos mais famosos 
+        </h2>
+        <p class="text-center">
+          Todos disponíveis no cardápio
+        </p>
+
+        <div class="row">
+          <a href="#" class="col-sm-6 col-md-4 col-lg-3">
+            <figure>
+              <img class="img-fluid img-thumbnail" src="img/imagem2.jpg" > 
+            </figure>
+          </a>
+
+          <a href="#" class="col-sm-6 col-md-4 col-lg-3">
+            <figure>
+              <img class="img-fluid img-thumbnail" src="img/imagem3.jpg" >             
+            </figure>
+          </a>
+
+          <a href="#" class="col-sm-6 col-md-4 col-lg-3">
+            <figure>
+              <img class="img-fluid img-thumbnail" src="img/imagem4.jpg">               
+            </figure>
+          </a>
+
+          <a href="#" class="col-sm-6 col-md-4 col-lg-3">
+            <figure>
+              <img class="img-fluid img-thumbnail" src="img/imagem5.jpg">              
+            </figure>
+          </a>
+        </div>
+      </section>
+
+      <section class="hall bg-white text-dark pt-5" id="Fotos">
+      <div class="foto"><h1>Fotos do estabelecimento:</h1></div>
+        <div id="slider">
+            <input type="radio" name="slider" id="slide1" checked>
+            <input type="radio" name="slider" id="slide2">
+            <input type="radio" name="slider" id="slide3">
+            <input type="radio" name="slider" id="slide4">
+            <div id="slides">
+               <div id="overflow">
+                  <div class="inner">
+                     <div class="slide slide_1">
+                        <div class="slide-content">
+                           <h2></h2>
+                           <p></p>
+                        </div>
+                     </div>
+                     <div class="slide slide_2">
+                        <div class="slide-content">
+                           <h2></h2>
+                           <p></p>
+                        </div>
+                     </div>
+                     <div class="slide slide_3">
+                        <div class="slide-content">
+                           <h2></h2>
+                           <p></p>
+                        </div>
+                     </div>
+                     <div class="slide slide_4">
+                        <div class="slide-content">
+                           <h2></h2>
+                           <p></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div id="controls">
+               <label for="slide1"></label>
+               <label for="slide2"></label>
+               <label for="slide3"></label>
+               <label for="slide4"></label>
+            </div>
+            <div id="bullets">
+               <label for="slide1"></label>
+               <label for="slide2"></label>
+               <label for="slide3"></label>
+               <label for="slide4"></label>
+            </div>
+         </div>
+        </section>
+
+       <section class="hall bg-white text-dark pt-5" id="Comentarios">
+      <h3>Comentários</h3><!-- Start BawkBox Code-->
+      <script data-sil-id="617205ae4832f3001e41cb3b">var loadWidget = function() { 
+    var d = document, w = window, l = window.location,p = l.protocol == "file:" ? "http://" : "//";
+        if (!w.WS) w.WS = {}; c = w.WS; var m=function(t, o){ var e = d.getElementsByTagName("script"); e=e[e.length-1];
+    var n = d.createElement(t); 
+            if (t=="script") {n.async=true;}
+                 for (k in o) n[k] = o[k]; e.parentNode.insertBefore(n, e)};
+    m("script", { src: p + "bawkbox.com/widget/star-rating/617205ae4832f3001e41cb3b?page=" +encodeURIComponent(l+''),
+    type: 'text/javascript' }); c.load_net = m; }; 
+                    if(window.Squarespace){ document.addEventListener('DOMContentLoaded', loadWidget);
+     setTimeOut(function(){ document.addEventListener('DOMContentLoaded', loadWidget); }, 3000) } 
+                    else { loadWidget() } </script><script type="application/ld+json" src="/widget/star-rating/617205ae4832f3001e41cb3b/microdata">
+     </script><div class="sil-widget-star-rating sil-widget" id="sil-widget-617205ae4832f3001e41cb3b">
+    <a href="//bawkbox.com/install/star-rating">Customer Reviews</a></div><!-- End BawkBox Code-->
+    </section>
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <!--
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+-->
+
+
+  </body>
+</html>
