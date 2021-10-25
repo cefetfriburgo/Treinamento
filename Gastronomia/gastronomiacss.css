@@ -29,3 +29,6 @@ a:hover.icon_voltar{
 	color:gray;
 }
 
+a:hover.link_restaurante{
+	text-decoration: none;
+}
